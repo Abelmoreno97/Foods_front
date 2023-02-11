@@ -21,9 +21,10 @@
 }
 .ordSelect{
     height: 25px;
+    width: 75px;
 }
 .selectType{
-    width: 100px;
+    width: 75px;
 }
 
 .button{
