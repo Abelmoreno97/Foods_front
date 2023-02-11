@@ -4,7 +4,7 @@ export const GET_USERS = "GET_USERS";
 
 export const getUsers = () => {
   return async function (dispatch) {
-    const apiData/recipes");
+    const apiData = await axios.get("/recipes");
 
     const users = apiData.data;
     dispatch({ type: GET_USERS, payload: users });
