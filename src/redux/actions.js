@@ -4,7 +4,7 @@ export const GET_USERS = "GET_USERS";
 
 export const getUsers = () => {
   return async function (dispatch) {
-    const apiData = await axios.get("http://localhost:3001/recipes");
+    const apiData/recipes");
 
     const users = apiData.data;
     dispatch({ type: GET_USERS, payload: users });
@@ -13,7 +13,7 @@ export const getUsers = () => {
 
 export const getUser = (id) => {
 return async function (dispatch){
-    const apiData = await axios.get(`http://localhost:3001/recipes/${id}`);
+    const apiData = await axios.get(`/recipes/${id}`);
     const user =apiData.data;
     dispatch({type:"GET_USER",payload: user });
 };
@@ -21,7 +21,7 @@ return async function (dispatch){
 
 export const getDiets = (id) => {
   return async function (dispatch){
-      const apiData = await axios.get(`http://localhost:3001/diets`);
+      const apiData = await axios.get(`/diets`);
       const diets =apiData.data;
       dispatch({type:"GET_DIETS",payload: diets });
   };
@@ -58,7 +58,7 @@ export const getDiets = (id) => {
 
   export function getNameUser(name) {
     return async function (dispatch) {
-        const apiList = await axios.get(`http://localhost:3001/recipes?name=${name}`);
+        const apiList = await axios.get(`/recipes?name=${name}`);
         const user = apiList.data 
         return dispatch({
           type: "GET_NAME",
