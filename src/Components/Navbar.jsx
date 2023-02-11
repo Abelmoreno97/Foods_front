@@ -108,15 +108,17 @@ const NavBar = () => {
   // *****************************************************
   return (
     <div className={style.mainCont}>
+      <div className={style.homeForm}>
       <NavLink to="/home">
         <button className={style.button}>Home</button>{" "}
       </NavLink>
       <NavLink to="/create">
         <button className={style.button}>Create</button>{" "}
       </NavLink>
+      </div>
       <div className={style.filters}>
         <p>Order by</p>
-        <select onChange={handleFilterOrder} defaultValue="def">
+        <select className={style.ordSelect} onChange={handleFilterOrder} defaultValue="def">
           <option value="def">Default</option>
           <option value="asc">A-Z</option>
           <option value="des">Z-A</option>
@@ -125,6 +127,7 @@ const NavBar = () => {
         </select>
       </div>
       <div>
+        <p>diet</p>
         <select
           className={style.selectType}
           disabled={disabledSelect}
