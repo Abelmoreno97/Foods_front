@@ -1,0 +1,30 @@
+.list{
+    align-items: center;
+    font-size: 25px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(253, 248, 216, 0.819);
+}
+.active{
+    padding: 5px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid black;
+}
+.button{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin:3px;
+    background-color: white;
+}
+ .button:hover{
+    font-size: 21px;
+    background-color: rgb(168, 168, 168);
+ }
+
+ .number:hover{
+    cursor: pointer;
+    transform: scale(150%);
+ }

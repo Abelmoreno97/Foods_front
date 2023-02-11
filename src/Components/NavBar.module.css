@@ -1,0 +1,27 @@
+.mainCont{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+    background-color: rgb(253, 248, 216);
+    border-radius: 15px;
+
+}
+.filters{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    font-size: 20px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin:3px;
+    background-color: white;
+}
+.button:hover{
+    font-size: 22px;
+    background-color: rgb(170, 170, 170);
+}

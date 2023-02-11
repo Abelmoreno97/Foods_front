@@ -1,0 +1,7 @@
+.container{
+    justify-content: space-around;
+    display:flex;
+    flex-direction: row;
+    border-radius: 15px;
+    flex-wrap: wrap;
+}

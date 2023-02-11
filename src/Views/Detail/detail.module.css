@@ -1,0 +1,33 @@
+.main{
+    display: flex;
+    justify-content: center;
+}
+.cont{
+    width: 90%;
+    border: 2px solid black;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imagen{
+    width: 350px;
+    margin:5px;
+    border:1px solid black;
+}
+
+.imgdes{
+
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.header{
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    row-gap: 5px;
+    justify-content: space-between;
+    width: 95%;
+}
