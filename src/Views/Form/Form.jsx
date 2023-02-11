@@ -50,7 +50,7 @@ const Form = () => {
   const submitHandler = (event) => {
     event.preventDefault();
     // agregar peticion al back para enviar formulario
-    axios.post(`http://localhost:3001/recipes`, form);
+    axios.post(`/recipes`, form);
     alert("recipe created");
     setForm({
       name: "",
