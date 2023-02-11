@@ -126,7 +126,7 @@ const NavBar = () => {
           <option value="unhealtier">unhealtier</option>
         </select>
       </div>
-      <div>
+      <div className={style.filters}>
         <p>diet</p>
         <select
           className={style.selectType}
