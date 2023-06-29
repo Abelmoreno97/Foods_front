@@ -117,7 +117,7 @@ const NavBar = () => {
       </NavLink>
       </div>
       <div className={style.filters}>
-        <p>Order by</p>
+        <p className={style.titles}>Order by</p>
         <select className={style.ordSelect} onChange={handleFilterOrder} defaultValue="def">
           <option value="def">Default</option>
           <option value="asc">A-Z</option>
@@ -127,7 +127,7 @@ const NavBar = () => {
         </select>
       </div>
       <div className={style.filters}>
-        <p>diet</p>
+        <p className={style.titles}>diet</p>
         <select
           className={style.selectType}
           disabled={disabledSelect}

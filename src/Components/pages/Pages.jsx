@@ -67,13 +67,13 @@ const Pages = () => {
     <div>
       <nav >
         <ul name="top" className={style.list}>
-          <li>
+          <li className={style.divbutton}>
             <button className={style.button} onClick={handlePrev}>PREV PAGE</button>
           </li>
 
           {pageNumbers}
 
-          <li>
+          <li className={style.divbutton}>
             <button className={style.button} onClick={handleNext}>NEXT PAGE</button>
           </li>
         </ul>
