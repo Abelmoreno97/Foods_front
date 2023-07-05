@@ -2,16 +2,17 @@
     background-color: rgba(242, 228, 255, 0.918);
     margin-top: 15px;
     font-size: 15px;
-    border:2px solid black;
+    border:1px solid black;
     width: fit-content;
     height: fit-content;
     border-radius: 10px;
     width: 20.5rem;
+    padding:5px;
 }
 .parrafo{
-    text-align: center;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 1.5rem;
+    text-align: start;
+    font-family:cursive;
+    font-size: 1.3rem;
     text-decoration:solid;
     color: black;
 }

@@ -1,6 +1,7 @@
 import styles from "./Card.module.css"
 import { Link } from "react-router-dom";
 const Card = (props)=>{
+
     return(
         <div className={styles.card}>
             <p className={styles.parrafo}>Nº:{props.id}</p>
@@ -10,7 +11,8 @@ const Card = (props)=>{
         </Link>
         <p>CLICK PHOTO FOR DETAIL</p>
             {/* <p>healthScore:{props.healthScore}</p> */}
-            <p className={styles.parrafo}>Diets:<br/>{props.diets}</p>
+            <p className={styles.parrafo}>Diets:<br/>{props.diets.map((diet)=>{return <div><p>{diet}</p></div>})}</p>
+            
             {/* <p>dishTypes:{props.dishTypes}</p> */}
             {/* <button onClick={()=>window.location.href = `/recipes/${props.id}`}> ir a detalle</button> */}
         </div>
